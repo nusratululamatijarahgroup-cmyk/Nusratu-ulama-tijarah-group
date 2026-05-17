@@ -12,101 +12,55 @@
 <body>
 
 <div class="top-header">
-  <div class="logo-box">
-    <img src="https://i.ibb.co/Qjr36GLP/removebg-preview.png" alt="Logo">
-  </div>
+    <div class="logo-box">
+        <img src="https://i.ibb.co/Qjr36GLP/removebg-preview.png" alt="Logo">
+    </div>
 
-  <div class="website-title">
-    নুসরাতুল উলামা তিজারাহ গ্রুপ
-  </div>
+    <div class="website-title">নুসরাতুল উলামা তিজারাহ গ্রুপ</div>
+    <div class="website-subtitle">আলেম সমাজের সম্মিলিত হালাল ব্যবসায়িক উদ্যোগ</div>
+</div>
 
-  <div class="website-subtitle">
-    আলেম সমাজের সম্মিলিত হালাল ব্যবসায়িক উদ্যোগ
-  </div>
+<div class="running-notice">
+    <marquee behavior="scroll" direction="left" scrollamount="6">
+        📅 <span id="currentDate"></span> |
+        🗓️ <span id="currentDay"></span> |
+        📢 নোটিশ: নতুন সদস্য সংগ্রহ চলছে। সদস্য ফি ৫০০০ টাকা।
+    </marquee>
 </div>
 
 <div class="topbar">
-  <div class="menu-title">মেনু</div>
-  <div class="menu-btn" onclick="openMenu()">☰</div>
+    <div class="menu-title">মেনু</div>
+    <div class="menu-btn" onclick="openMenu()">☰</div>
 </div>
 
 <div class="sidebar" id="sidebar">
-  <div class="close-btn" onclick="closeMenu()">×</div>
-
-  <ul>
-    <li><a href="#home">🏠 হোম</a></li>
-    <li><a href="#about">📖 পরিচিতি</a></li>
-    <li><a href="#members">👳 সদস্য</a></li>
-    <li><a href="#membership">📝 সদস্য আবেদন</a></li>
-    <li><a href="#payment">💳 পেমেন্ট</a></li>
-    <li><a href="#notice">📢 নোটিশ</a></li>
-    <li><a href="#contact">📞 যোগাযোগ</a></li>
-  </ul>
+    <div class="close-btn" onclick="closeMenu()">×</div>
+    <ul>
+        <li><a href="#home">🏠 হোম</a></li>
+        <li><a href="#about">📖 পরিচিতি</a></li>
+        <li><a href="#members">👳 সদস্য</a></li>
+        <li><a href="#membership">📝 সদস্য আবেদন</a></li>
+        <li><a href="#payment">💳 পেমেন্ট</a></li>
+        <li><a href="#notice">📢 নোটিশ</a></li>
+        <li><a href="#contact">📞 যোগাযোগ</a></li>
+    </ul>
 </div>
 
 <section class="hero" id="home">
-  <h1>নুসরাতুল উলামা তিজারাহ গ্রুপ</h1>
-  <p>
-    একশো জন আলেমের সম্মিলিত হালাল ব্যবসায়িক উদ্যোগ। প্রতিজন সদস্য এককালীন ৫০০০ টাকা বিনিয়োগ করবেন এবং ব্যবসার লভ্যাংশ সমানভাবে বণ্টন করা হবে।
-  </p>
-
-  <div class="hero-btns">
-    <a href="#membership">সদস্য হোন</a>
-    <a href="#payment">পেমেন্ট করুন</a>
-  </div>
-</section>
-
-<section class="section" id="about">
-  <div class="section-title">আমাদের পরিচিতি</div>
-  <div class="about-text">
-    নুসরাতুল উলামা তিজারাহ গ্রুপ একটি সম্মিলিত হালাল ব্যবসায়িক উদ্যোগ।
-    <br><br>
-    এই গ্রুপের লক্ষ্য হচ্ছে আলেম সমাজকে ব্যবসা ও অর্থনৈতিকভাবে শক্তিশালী করা।
-    <br><br>
-    প্রতিজন সদস্য এককালীন ৫০০০ টাকা জমা দিয়ে এই গ্রুপের অংশীদার হবেন।
-  </div>
-</section>
-
-<section class="section" id="members">
-  <div class="section-title">এ পর্যন্ত যারা সদস্যতা নিয়েছেন</div>
-  <div class="cards">
-    <div class="card"><h3>মাওলানা শাহীনুল ইসলাম আযযাম</h3></div>
-    <div class="card"><h3>মাওলানা মাসুম আহমদ</h3></div>
-    <div class="card"><h3>মাওলানা সাইফুল আলম</h3></div>
-    <div class="card"><h3>মাওলানা আল আমীন</h3></div>
-    <div class="card"><h3>হাফিজ মিজানুর রহমান</h3></div>
-    <div class="card"><h3>মাওলানা জাকির হুসাইন</h3></div>
-    <div class="card"><h3>হাফিজ শাহেদ আহমদ</h3></div>
-    <div class="card"><h3>হাফিজ হুসাইন মুহাম্মদ জাকির</h3></div>
-    <div class="card"><h3>মাওলানা ওলিউর রাহমান</h3></div>
-  </div>
-</section>
-
-<section class="section" id="membership">
-  <div class="section-title">সদস্য হওয়ার আবেদন</div>
-  <div style="text-align:center;">
-    <p style="font-size:22px; line-height:2;">
-      সদস্য হওয়ার জন্য নিচের বাটনে ক্লিক করে আবেদন ফরম পূরণ করুন।
-    </p>
-
-    <a href="https://forms.gle/6vxTYcwUeR1x4ujS6" target="_blank" class="main-btn">
-      সদস্য আবেদন ফরম
-    </a>
-  </div>
-</section>
-
-<section class="section" id="payment">
-  <div class="section-title">পেমেন্ট সিস্টেম</div>
-  <div class="payment-box">
-    <h3>এককালীন সদস্য ফি: ৫০০০ টাকা</h3>
+    <h1>নুসরাতুল উলামা তিজারাহ গ্রুপ</h1>
     <p>
-      📱 বিকাশ পেমেন্ট: 01334846208
-      <br><br>
-      📌 পেমেন্ট প্রদানের শেষ তারিখ ৩০ জুন পর্যন্ত।
+        একশো জন আলেমের সম্মিলিত হালাল ব্যবসায়িক উদ্যোগ। প্রতিজন সদস্য এককালীন ৫০০০ টাকা বিনিয়োগ করবেন।
     </p>
 
-    <a href="https://forms.gle/PjVeFGuGmNBBU5my9" target="_blank" class="main-btn">
-      পেমেন্ট ফরম
+    <div class="hero-btns">
+        <a href="#membership">সদস্য হোন</a>
+        <a href="#payment">পেমেন্ট করুন</a>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>      পেমেন্ট ফরম
     </a>
   </div>
 </section>
